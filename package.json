@@ -1,0 +1,35 @@
+{
+  "name": "indexer-opreturn",
+  "version": "0.0.1",
+  "description": "OP_RETURN indexer plugin for bcoin ",
+  "main": "opri-plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinheadmz/opreturn-indexer.git"
+  },
+  "author": "Matthew Zipkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinheadmz/opreturn-indexer/issues"
+  },
+  "homepage": "https://github.com/pinheadmz/opreturn-indexer#readme",
+  "dependencies": {
+    "bdb": "^1.1.7",
+    "bsert": "0.0.10",
+    "bufio": "^1.0.6",
+    "bval": "^0.1.6",
+    "bweb": "^0.1.9"
+  },
+  "peerDependencies": {
+    "bcoin": "bcoin-org/bcoin"
+  },
+  "devDependencies": {
+    "bmocha": "^2.1.2"
+  },
+  "scripts": {
+    "test": "bmocha --reporter spec test/*.js"
+  }
+}
