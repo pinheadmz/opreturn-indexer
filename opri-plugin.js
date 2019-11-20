@@ -1,7 +1,7 @@
 /*
- * Packet sniffer plgin for bcoin
+ * OPReturn Indexer plugin for bcoin
  * USAGE:
- *   bcoin --log-console=false --plugins <path/to/packetsniffer.js>
+ *   bcoin --log-console=false --plugins <path/to/oprt-plugin.js>
  */
 
 'use strict';
